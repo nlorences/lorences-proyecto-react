@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navBar{
+    display: flex;
+    background-color: rgb(219, 212, 212);
+    justify-content:space-around
+}
+.logoLink{
+    display: flex;
+    align-items:center
+}
+.nav{
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.nav li {
+    margin: 1rem 1.3rem;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: rgb(210, 72, 63);
+    font-size: 1.5rem;
+    transition: all .5s;
+}
+.nav li a:hover{
+    color:rgba(176, 6, 37, 0.966);
+    font-size: 1.6rem;
+}
+.logo {
+    width: 5rem;
+    margin: .5rem;
+
+}

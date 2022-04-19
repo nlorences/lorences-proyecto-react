@@ -1,0 +1,8 @@
+.cartImg {
+    height: 2.4rem;
+    margin: 10px;
+}
+.CartImgContainer{
+    display: flex;
+    align-items: center;
+}
