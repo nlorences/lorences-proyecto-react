@@ -1,10 +1,10 @@
 import React from 'react';
 import './NavBar.css';
-import logo from './logo.png'
+import logo from '../../assets/logo.png'
 import CartWidget from '../CartWidget/CartWidget';
 
 
-function NavBar(props) {
+const NavBar = () => {
     return (
         <header>
             {/* logo provisorio */}
@@ -12,7 +12,7 @@ function NavBar(props) {
                 <a className="logoLink" href="#">
                     <img className="logo"
                         src={logo} 
-                        alt=""
+                        alt="Logo"
                     />
                 </a>
                 <nav>
