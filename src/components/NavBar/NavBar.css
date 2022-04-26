@@ -3,12 +3,12 @@
     margin: 0;
     padding: 0;
 }
-.navBar{
+.nav-bar-container{
     display: flex;
     background-color: rgb(219, 212, 212);
     justify-content:space-around
 }
-.logoLink{
+.logo-link{
     display: flex;
     align-items:center
 }

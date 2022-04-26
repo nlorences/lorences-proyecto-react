@@ -1,8 +1,8 @@
-.cartImg {
+.cart-img {
     height: 2.4rem;
     margin: 10px;
 }
-.CartImgContainer{
+.cart-img-container{
     display: flex;
     align-items: center;
 }

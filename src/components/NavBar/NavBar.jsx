@@ -8,8 +8,8 @@ const NavBar = () => {
     return (
         <header>
             {/* logo provisorio */}
-            <div className="navBar">
-                <a className="logoLink" href="#">
+            <div className="nav-bar-container">
+                <a className="logo-link" href="#">
                     <img className="logo"
                         src={logo} 
                         alt="Logo"
