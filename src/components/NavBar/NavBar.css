@@ -25,15 +25,14 @@
 .nav li a{
     text-decoration: none;
     color: rgb(210, 72, 63);
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     transition: all .5s;
 }
 .nav li a:hover{
     color:rgba(176, 6, 37, 0.966);
-    font-size: 1.6rem;
 }
 .logo {
-    width: 5rem;
-    margin: .5rem;
+    width: 6rem;
+    margin: 1rem;
 
 }

@@ -1,0 +1,19 @@
+.card{
+    text-align:center;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: rgb(219, 212, 212);
+    padding: .8rem;
+    margin: 2rem;
+    font-size: 1.4rem;
+}
+.product-img{
+    height: 320px;
+}
+.product-info-container{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.product-name{
+    margin: .8rem;
+}
