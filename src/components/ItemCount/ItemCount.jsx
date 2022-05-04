@@ -17,11 +17,11 @@ const ItemCount = ({stock, initial, onAdd}) => {
   return (
     <div className="item-count-container">
       <div>
-        <button onClick={() => handleMinusButton()}>-</button>
+        <button className="btn-plus-minus" onClick={handleMinusButton}>-</button>
         <input value={count}/>
-        <button onClick={() => handlePlusButton()}>+</button>
+        <button className="btn-plus-minus" onClick={handlePlusButton}>+</button>
       </div>
-      <button onClick={() => (count <= stock) && (count > 0) && onAdd(count)}>Agregar al carrito</button>
+      <button className="btn-add-cart" onClick={() => (count <= stock) && (count > 0) && onAdd(count)}>Agregar al carrito</button>
     </div>
   )
 }

@@ -1,44 +1,44 @@
 .item-count-container {
-    border: solid 1px;
-    background-color: rgb(219, 212, 212);
     display: flex;
     flex-flow: column;
     padding: .5rem;
-    margin: 2rem;
-    
-    
+    align-items: center;
 }
 
 .item-count-container div{
     display: flex;
     justify-content: space-between;
+    width: 20rem;
+    margin: 1.5rem 0;
 }
-.item-count-container div button {
+.btn-plus-minus {
     width: 1.6rem;
     height: 1.6rem;
-    margin: .3rem;
-
+    background: none;
+    font-size: 2.5rem;
+    border: none;
+    cursor: pointer;
+    color: rgb(210, 72, 63);
 }
 .item-count-container div input {
     width:5rem;
     text-align: center;
     border: none;
     color: rgb(210, 72, 63);
-    font-size:1.1rem;
-    margin: .3rem;
+    font-size:1.6rem;
 }
-.item-count-container button {
-    width: 100%;
-    border: solid 1px rgb(210, 72, 63) ;
-    background: none;
+.btn-add-cart {
+    width: 20rem;
+    border: none;
+    border-radius: .5rem;
     color: rgb(210, 72, 63);
-    font-size:1.1rem;
+    font-size:1.8rem;
     margin: .3rem 0rem;
     background-color: rgb(210, 191, 191);
     transition: all .5s;
-    height: 1.6rem;
-}
-.item-count-container button:hover {
-    background-color: rgba(210, 191, 191, 0.694);
+    height: 3.5rem;
     cursor: pointer;
+}
+.btn-add-cart:hover {
+    background-color: rgba(210, 191, 191, 0.694);
 }

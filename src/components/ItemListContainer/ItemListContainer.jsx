@@ -38,7 +38,7 @@ const getProducts = () => {
   return myPromise;
 }
 
-const ItemListContainer = ({greeting, color}) => {
+const ItemListContainer = () => {
   
   function addToCart(count){
     console.log('Agregaste ' + count + ' unidades al carrito!')
@@ -55,8 +55,6 @@ const ItemListContainer = ({greeting, color}) => {
 
   return (
     <div>
-      {/* <h2 style={{color:color}}>{greeting}</h2> */}
-      {/* <ItemCount stock={5} initial={1} onAdd={addToCart}/> */}
       <div className="item-list-container">
         <ItemList items={products} />
       </div>

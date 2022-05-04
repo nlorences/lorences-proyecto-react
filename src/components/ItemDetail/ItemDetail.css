@@ -1,0 +1,34 @@
+.item-name{
+    text-align: center;
+    font-size: 4rem;
+    margin: 3rem;
+}
+.item-detail{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    font-size: 2.3rem;
+    text-align: justify;
+}
+.item-img{
+    width: 80%;
+}
+.item-detail-rigth{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    width: 50vw;
+    max-width: 40rem;
+    padding: 0 2rem;
+}
+.item-detail-left{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    max-width: 40rem;
+}
+.item-price{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
