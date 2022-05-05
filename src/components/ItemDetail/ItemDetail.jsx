@@ -16,7 +16,7 @@ const ItemDetail = ({item}) => {
             <img className="item-img" src={item?.pictureUrl} alt="Imagen del producto"/>
         </div>
         <div className="item-detail-rigth">
-            <div className="item-description">{item?.description}</div>
+            <div className="item-description">{item.description? item.description:'Producto sin descripción'}</div>
             <div className="item-price">$ {item?.price}</div>
             <ItemCount stock={item?.stock} initial={1} onAdd={addToCart}/>
         </div>

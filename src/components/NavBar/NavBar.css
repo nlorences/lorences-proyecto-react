@@ -6,7 +6,7 @@
 .nav-bar-container{
     display: flex;
     background-color: rgb(219, 212, 212);
-    justify-content:space-around
+    justify-content:space-around;
 }
 .logo-link{
     display: flex;
@@ -21,7 +21,6 @@
 .nav li {
     margin: 1rem 1.3rem;
 }
-
 .nav li a{
     text-decoration: none;
     color: rgb(210, 72, 63);

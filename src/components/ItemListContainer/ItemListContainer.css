@@ -4,6 +4,6 @@ h2{
     margin-top:2rem
 }
 .item-list-container{
-    display: flex;
-    justify-content: center;
+    max-width: 90vw;
+    margin: 0 auto;
 }

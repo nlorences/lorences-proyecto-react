@@ -6,17 +6,22 @@
     padding: .8rem;
     margin: 2rem;
     font-size: 1.4rem;
-}
-.product-img{
-    height: 320px;
-    border-radius: 5px;
-}
-.product-info-container{
+    width:18rem;    
+    height: 27rem;
     display: flex;
     flex-flow: column nowrap;
+    justify-content:space-between;
+}
+.product-img{
+    width:98%;
+    border-radius: 5px;
 }
 .product-name{
-    margin: .8rem;    
+    margin: .8rem;
+    font-size: 1.6rem;
+}
+.product-price{
+    font-size: 1.5rem;
 }
 .product-detail-link{
     text-decoration: none;
