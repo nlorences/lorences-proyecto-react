@@ -7,7 +7,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    font-size: 2.3rem;
+    font-size: 1.7rem;
     text-align: justify;
 }
 .item-img{
@@ -16,16 +16,19 @@
 .item-detail-rigth{
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 50vw;
     max-width: 40rem;
     padding: 0 2rem;
+    border-left: 2px solid rgb(210, 72, 63);
+
 }
 .item-detail-left{
     width: 50vw;
     display: flex;
     justify-content: center;
     max-width: 40rem;
+
 }
 .item-price{
     font-size: 2rem;
