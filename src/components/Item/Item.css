@@ -9,11 +9,16 @@
 }
 .product-img{
     height: 320px;
+    border-radius: 5px;
 }
 .product-info-container{
     display: flex;
     flex-flow: column nowrap;
 }
 .product-name{
-    margin: .8rem;
+    margin: .8rem;    
+}
+.product-detail-link{
+    text-decoration: none;
+    color: black;
 }

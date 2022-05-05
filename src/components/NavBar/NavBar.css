@@ -34,5 +34,7 @@
 .logo {
     width: 6rem;
     margin: 1rem;
-
+}
+.nav-active{
+    font-weight: bold;
 }

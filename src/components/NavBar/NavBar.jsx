@@ -2,6 +2,7 @@ import React from 'react';
 import './NavBar.css';
 import logo from '../../assets/logo.png'
 import CartWidget from '../CartWidget/CartWidget';
+import { NavLink } from 'react-router-dom';
 
 
 const NavBar = () => {
@@ -9,19 +10,18 @@ const NavBar = () => {
         <header>
             {/* logo provisorio */}
             <div className="nav-bar-container">
-                <a className="logo-link" href="#">
+                <NavLink to='/' className="logo-link"> 
                     <img className="logo"
                         src={logo} 
                         alt="Logo"
                     />
-                </a>
+                </NavLink>
                 <nav>
                     <ul className="nav">
-                        <li><a href="#">Vinos</a></li>
-                        <li><a href="#">Espumantes</a></li>
-                        <li><a href="#">Cervezas</a></li>
-                        <li><a href="#">Accesorios</a></li>
-                        <li><a href="#">Ofertas</a></li>
+                        <li><NavLink to='/category/tintos' className={nav => nav.isActive ? 'nav-active':''}>Vinos Tintos</NavLink></li>
+                        <li><NavLink to='/category/blancos' className={nav => nav.isActive ? 'nav-active':''}>Vinos Blancos</NavLink></li>
+                        <li><NavLink to='/category/espumantes' className={nav => nav.isActive ? 'nav-active':''}>Espumantes</NavLink></li>
+                        <li><NavLink to='/category/cervezas' className={nav => nav.isActive ? 'nav-active':''}>Cervezas</NavLink></li>
                     </ul>
                 </nav>
                 <CartWidget />
