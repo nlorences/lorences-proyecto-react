@@ -21,17 +21,21 @@
     max-width: 40rem;
     padding: 0 2rem;
     border-left: 2px solid rgb(210, 72, 63);
-
 }
 .item-detail-left{
     width: 50vw;
     display: flex;
     justify-content: center;
     max-width: 40rem;
-
 }
 .item-price{
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
+}
+.btn-finish-container{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
 }

@@ -8,7 +8,6 @@ import { NavLink } from 'react-router-dom';
 const NavBar = () => {
     return (
         <header>
-            {/* logo provisorio */}
             <div className="nav-bar-container">
                 <NavLink to='/' className="logo-link"> 
                     <img className="logo"

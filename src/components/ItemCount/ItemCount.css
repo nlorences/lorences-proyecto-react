@@ -27,18 +27,3 @@
     color: rgb(210, 72, 63);
     font-size:1.6rem;
 }
-.btn-add-cart {
-    width: 20rem;
-    border: none;
-    border-radius: .5rem;
-    color: rgb(210, 72, 63);
-    font-size:1.8rem;
-    margin: .3rem 0rem;
-    background-color: rgb(210, 191, 191);
-    transition: all .5s;
-    height: 3.5rem;
-    cursor: pointer;
-}
-.btn-add-cart:hover {
-    background-color: rgba(210, 191, 191, 0.694);
-}
