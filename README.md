@@ -1,8 +1,8 @@
-<div  style="text-align: center;">
+<p align="center">
     <img src="src/assets/logo.png" alt="logo" style="height: 180px">
-</div >
+</p >
 
-# Le Caviste - Tienda de vinos
+# **Le Caviste - Tienda de vinos**
 
 El proyecto es un E-Commerce desarrollado en React de venta de bebidas alcohólicas, principalmente vinos.
 
@@ -10,7 +10,7 @@ El proyecto busca mostrar un catálogo de productos, filtrar los mismos en difer
 
 Sus funcionalidades permitirán al usuario elegir la cantidad de cada producto que desean comprar para agregarlos a un carrito de compras y finalizar la transacción.
 
-## Screenshots
+## **Screenshots**
 
 ---
 
@@ -26,14 +26,24 @@ Sus funcionalidades permitirán al usuario elegir la cantidad de cada producto q
 
 ![App Screenshot Detalle productos](src/assets/product_.detail.jpg)
 
-## DEMO
+## **DEMO**
 
 ---
 
 ![Demo](src/assets/demo.gif)
 
-## Dependencias Utilizadas
+## **Dependencias Utilizadas**
 
 ---
 
 - react-router-dom
+
+## **Instalación**
+
+---
+```
+$ git clone https://github.com/nlorences/lorences-proyecto-react.git
+$ cd ../path/lorences-proyecto-react
+$ npm install
+$ npm run start
+```
