@@ -1,0 +1,9 @@
+.cart-item-container{
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 2rem;
+    
+}
+.cart-item-quantity{
+    margin-left: 3rem;
+}
