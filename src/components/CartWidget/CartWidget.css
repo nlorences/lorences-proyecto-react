@@ -1,7 +1,19 @@
 .cart-img {
-    width: 3.1rem;
+    width: 3.5rem;
 }
 .cart-img-container{
     display: flex;
     align-items: center;
+}
+.cart-count a{
+    text-decoration: none;
+    color: rgb(210, 72, 63);
+    font-weight: bold;
+}
+.cart-count{
+    font-size: 1.5rem;
+    position: relative;
+    left: -40%;
+    bottom: 17%; 
+    height: 0;
 }

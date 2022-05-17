@@ -10,7 +10,7 @@ const Cart = () => {
 
 
   return (
-    cartCtx.totalCount() > 0 ?
+    cartCtx.products.length > 0 ?
       <div className="cart-container">
         <h2 className="cart-title">Carrito</h2>
         <div className="cart-item-container">
