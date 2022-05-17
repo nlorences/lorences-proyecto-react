@@ -1,4 +1,31 @@
 .cart-title{
-    font-size:5rem;
+    font-size:3.3rem;
     text-align:center;
+}
+.cart-item-container{
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 90vw;
+    align-items: center;
+    margin: 0 auto;
+}
+.cart-checkout{
+    width: 85rem;
+    font-size: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+}
+.cart-checkout p{
+    margin-bottom: .6rem
+}
+.cart-empty{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.cart-empty button{
+    margin: 2rem;
 }

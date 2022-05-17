@@ -13,3 +13,12 @@
 .btn-primary:hover {
     background-color: rgba(210, 191, 191, 0.694);
 }
+.btn-small{
+    margin: .4rem;
+    width:13rem;
+}
+.btn-xs{
+    width: 8rem;
+    font-size:1.5rem;
+    height: 2.7rem;
+}
