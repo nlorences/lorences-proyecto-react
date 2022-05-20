@@ -40,14 +40,6 @@ const ItemDetail = ({item}) => {
 
         
     </div>
-
-    <div className="cart-functions">
-        <Button btnClass="btn-small" btnText={'Imprimir carrito'} action={() => console.log(cartCtx.products)}/>
-        <Button btnClass="btn-small" btnText={'Vaciar Carrito'} action={cartCtx.emptyCart}/>
-        <Button btnClass="btn-small" btnText={'Quitar producto'} action={() => cartCtx.deleteById(item.id)}/>
-        <Button btnClass="btn-small" btnText={'Quantity'} action={() => console.log(cartCtx.unitPerItem(item.id)) }/>
-    </div>
-
     </>
   )
 }
