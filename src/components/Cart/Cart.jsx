@@ -18,7 +18,9 @@ const Cart = () => {
           <div className="cart-checkout">        
           <p>Total de la compra $ {cartCtx.totalAmount()} </p>
           <Button btnText='Vaciar Carrito' action={cartCtx.emptyCart}/>
-          <Button btnText='Finalizar compra'></Button>
+          <Link to='/checkout'>
+            <Button btnText='Finalizar compra'></Button>
+          </Link>
           </div>
         </div>
       </div>
