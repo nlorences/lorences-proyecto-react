@@ -43,28 +43,27 @@ const Checkout = () => {
         } catch(err){}
     }
 
-
   return (  
     <>
-    <h2>Finalizando la compra</h2>
-    <h3>Completa tus datos</h3>
     {
     load? 
-        <div>Cargando</div>
-        :(!orderId && <div>
-            <form onSubmit={handleSubmit}>
-                <input type="text" name="Nombre" placeholder="Nombre" onChange={handleInputChange} required/>
-                <input type="email" name="Email" placeholder="Email" onChange={handleInputChange} required/>
-                <input type="number" name="Telefono" placeholder="Teléfono" onChange={handleInputChange} required/>
-                <input type="submit" value="Finalizar Compra" className="btn-primary"onChange={handleInputChange} required/>
-            </form>
-        </div>)
+        <h3>Procesando</h3>
+        :(!orderId && 
+            <div>
+                <h3>Completa tus datos para finalizar la compra</h3>
+                <form onSubmit={handleSubmit}>
+                    <input type="text" name="Nombre" placeholder="Nombre" onChange={handleInputChange} required/>
+                    <input type="email" name="Email" placeholder="Email" onChange={handleInputChange} required/>
+                    <input type="number" name="Telefono" placeholder="Teléfono" onChange={handleInputChange} required/>
+                    <input type="submit" value="Finalizar Compra" className="btn-primary"onChange={handleInputChange} required/>
+                </form>
+            </div>)
     }
     {
         orderId && 
         <div>
             <h3>Compra finalizada</h3>
-            <h4>{`Número de compra: ${orderId}`}</h4>
+            <h4>{`Código de la compra: ${orderId}`}</h4>
         </div>
     }
     </>
