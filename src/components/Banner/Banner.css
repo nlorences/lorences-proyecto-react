@@ -1,0 +1,22 @@
+.banner{
+    height: 24rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+.banner-tintos{
+    background-image: url(../../assets/banners/tintos.jpg);
+}
+.banner-blancos{
+    background-image: url(../../assets/banners/blancos.jpg);
+}
+.banner-espumantes{
+    background-image: url(../../assets/banners/espumantes.jpg);
+}
+.banner-cervezas{
+    background-image: url(../../assets/banners/cervezas.jpg);
+}
+.banner-home{
+    background-image: url(../../assets/banners/home.jpg);
+}
