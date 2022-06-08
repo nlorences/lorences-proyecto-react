@@ -9,7 +9,7 @@
 
 .item-count-container-itemDetail div{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 20rem;
     margin: 1.5rem 0;
 }
@@ -17,7 +17,7 @@
     width: 1.6rem;
     height: 1.6rem;
     background: none;
-    font-size: 2.5rem;
+    font-size: 2rem;
     border: none;
     cursor: pointer;
     color: rgb(210, 72, 63);
@@ -27,7 +27,7 @@
     text-align: center;
     border: none;
     color: rgb(210, 72, 63);
-    font-size:1.6rem;
+    font-size:1.3rem;
 }
 
 /* Item List styles */
@@ -42,15 +42,17 @@
     width: 1.6rem;
     height: 1.6rem;
     background: none;
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     border: none;
     cursor: pointer;
     color: rgb(210, 72, 63);
 }
 .item-count-container-itemList div input {
-    width:5rem;
+    width:3.2rem;
     text-align: center;
     border: none;
     color: rgb(210, 72, 63);
-    font-size:1.6rem;
+    font-size:1.2rem;
+    border-radius: 6px;
+    background-color: rgb(248, 243, 243);
 }

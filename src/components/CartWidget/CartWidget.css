@@ -1,5 +1,5 @@
 .cart-img {
-    width: 3.5rem;
+    width: 2.6rem;
 }
 .cart-img-container{
     display: flex;
@@ -11,7 +11,7 @@
     font-weight: bold;
 }
 .cart-count{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     position: relative;
     left: -40%;
     bottom: 17%; 

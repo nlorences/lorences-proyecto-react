@@ -1,4 +1,5 @@
 .cart-item{
+    max-width: 80vw;
     border: 2px solid;
     border-radius:5px;
     display: flex;
@@ -8,7 +9,7 @@
     width: 90rem;
     margin-top: 2rem;
     padding: 0 2rem;
-    font-size: 2rem;
+    font-size: 1.1rem;
 }
 .cart-item-left{
     width:50%;
@@ -24,13 +25,13 @@
     justify-content:space-around;
 }
 .cart-item-img{
-    height: 9rem;
+    height: 7rem;
 }
 .product-link{
     text-decoration: none;
     color: black;
 }
 .cart-item-info{
-    font-size:1.3rem;
+    font-size:1rem;
     text-align: center;
 }

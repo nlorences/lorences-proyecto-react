@@ -5,21 +5,21 @@ form{
     align-items: center;
 }
 form input {
-    height: 2.2rem;
-    width: 25rem;
+    width: 23rem;
     border: 1px solid rgb(210, 72, 63);
     border-radius: .5rem ;
-    font-size:1.5rem;
+    font-size:1.2rem;
     margin: .5rem 0rem;
     padding-left: .4rem;
+    height: 2.4rem;
 }
 h3{
-    font-size:2rem;
-    margin: 3rem;
+    font-size:1.5rem;
+    margin: 2rem;
     text-align: center;
 }
 h4{
-    font-size:1.6rem;
+    font-size:1.4rem;
     margin: 1rem;
     text-align: center;
     font-weight: normal;

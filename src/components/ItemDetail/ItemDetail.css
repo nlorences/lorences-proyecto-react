@@ -1,17 +1,17 @@
 .item-name{
     text-align: center;
-    font-size: 2.6rem;
-    margin: 3rem;
+    font-size: 1.5rem;
+    margin: 2rem;
 }
 .item-detail{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-evenly;
-    font-size: 1.7rem;
+    font-size: 1.1rem;
     text-align: justify;
 }
 .item-img{
-    width: 80%;
+    width: 60%;
 }
 .item-detail-rigth{
     display: flex;
@@ -29,7 +29,7 @@
     max-width: 40rem;
 }
 .item-price{
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: bold;
     text-align: center;
 }

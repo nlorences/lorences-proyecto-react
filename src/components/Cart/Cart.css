@@ -1,21 +1,21 @@
 .cart-title{
-    font-size:3.3rem;
+    font-size:1.5rem;
     text-align:center;
 }
 .cart-item-container{
     display: flex;
     flex-flow: column nowrap;
-    max-width: 90vw;
     align-items: center;
-    margin: 0 auto;
 }
 .cart-checkout{
     width: 90rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
     margin: 2rem;
     display: flex;
     flex-flow: column nowrap;
     align-items: flex-end;
+    max-width: 80vw;
+
 }
 .cart-checkout p{
     margin-bottom: .6rem

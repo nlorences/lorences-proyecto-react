@@ -29,7 +29,7 @@ const ItemDetail = ({item}) => {
                 
                 {cartCtx.totalCount() > 0 ?
                 <div className="btn-finish-container">
-                    <Link to='/cart'> <Button btnText={`Ir al carrito ${cartCtx.totalCount()} Items`}></Button> </Link>
+                    <Link to='/cart'> <Button btnText={`Ir al carrito`}></Button> </Link>
                 </div>
                 : ""                 
                 }

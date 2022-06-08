@@ -1,25 +1,24 @@
 .btn-primary {
-    width: 20rem;
+    width: 14rem;
     border: none;
     border-radius: .5rem;
     color: rgb(210, 72, 63);
-    font-size:1.8rem;
+    font-size:1.3rem;
     margin: .3rem 0rem;
     background-color: rgb(210, 191, 191);
     transition: all .5s;
-    height: 3.5rem;
     cursor: pointer;
+    padding: .6rem;
 }
 .btn-primary:hover {
     background-color: rgba(210, 191, 191, 0.694);
 }
 .btn-small{
-    margin: .4rem;
-    width:13rem;
-    font-size:1.5rem;
+    margin: .8rem;
+    width:11rem;
+    font-size:1.2rem;
 }
 .btn-xs{
-    width: 8rem;
-    font-size:1.5rem;
-    height: 2.7rem;
+    width: 6rem;
+    font-size:1.2rem;
 }

@@ -1,27 +1,32 @@
 .card{
     text-align:center;
     border: solid 1px;
-    border-radius: 5px;
+    border-radius: 6px;
     background-color: rgb(219, 212, 212);
-    padding: .8rem;
     margin: 2rem;
-    font-size: 1.4rem;
-    width:19rem;    
-    height: 34rem;
+    width:13rem;    
     display: flex;
     flex-flow: column nowrap;
     justify-content:space-between;
 }
 .product-img{
     width:98%;
-    border-radius: 5px;
+    border-radius: 6px;
+    padding: .7rem .7rem 0rem .7rem;
+
+}
+.product-info-container{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content:space-between;
+    height:14rem;
 }
 .product-name{
     margin: .8rem;
-    font-size: 1.6rem;
+    font-size: 1.1rem;
 }
 .product-price{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 .product-detail-link{
     text-decoration: none;

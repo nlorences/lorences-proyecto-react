@@ -60,7 +60,7 @@ const Checkout = () => {
     <>
     {
     load? 
-        <h3>Procesando</h3>
+        <h3>Procesando tu pedido...</h3>
         :(!orderId && 
             <div>
                 <h3>Completa tus datos para finalizar la compra</h3>

@@ -24,14 +24,14 @@
 .nav li a{
     text-decoration: none;
     color: rgb(210, 72, 63);
-    font-size: 2.2rem;
+    font-size: 1.6rem;
     transition: all .5s;
 }
 .nav li a:hover{
     color:rgba(176, 6, 37, 0.966);
 }
 .logo {
-    width: 10.5rem;
+    width: 8rem;
     margin: .3rem;
 }
 .nav-active{
