@@ -30,6 +30,7 @@ const Checkout = () => {
         const items = cartCtx.products.map(item => {return {id:item.id, title:item.title, price: item.price, amount: item.quantity}})
         const dataOrder = {buyer, items, date, total}
         generateOrder(dataOrder)
+        
     }
 
     const generateOrder = async (dataOrder) => {
@@ -42,6 +43,18 @@ const Checkout = () => {
             setLoad(false)
         } catch(err){}
     }
+
+// function to add an item
+
+    const itemsDb = {}
+    const updateDb = async (itemsDb) => {
+        try{
+            const col = collection(db, "items")
+            const item = await addDoc(col, itemsDb)
+        } catch(err){}
+    }
+
+
 
   return (  
     <>

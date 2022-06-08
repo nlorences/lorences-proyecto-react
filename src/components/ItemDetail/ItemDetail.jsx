@@ -7,11 +7,9 @@ import './ItemDetail.css';
 
 
 const ItemDetail = ({item}) => {
-    const [qProducts, setQProducts] = useState (null);
     const cartCtx = useContext (CartContext)
 
     function handleOnAdd(quantityToAdd){
-        setQProducts(quantityToAdd);
         cartCtx.addToCart(item, quantityToAdd);
     };
 
@@ -27,7 +25,7 @@ const ItemDetail = ({item}) => {
             <p className="item-description">{item?.description? item.description:'Producto sin descripción'}</p>
             <div>
                 <div className="item-price">Precio $ {item?.price}</div>
-                <ItemCount stock={item?.stock} initial={1} onAdd={handleOnAdd}/>  
+                <ItemCount stock={item?.stock} initial={1} onAdd={handleOnAdd} classPage="itemDetail" />  
                 
                 {cartCtx.totalCount() > 0 ?
                 <div className="btn-finish-container">

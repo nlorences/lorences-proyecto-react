@@ -1,17 +1,19 @@
-.item-count-container {
+/* Item Detail styles */
+
+.item-count-container-itemDetail {
     display: flex;
     flex-flow: column;
     padding: .5rem;
     align-items: center;
 }
 
-.item-count-container div{
+.item-count-container-itemDetail div{
     display: flex;
     justify-content: space-between;
     width: 20rem;
     margin: 1.5rem 0;
 }
-.btn-plus-minus {
+.btn-plus-minus-itemDetail {
     width: 1.6rem;
     height: 1.6rem;
     background: none;
@@ -20,7 +22,32 @@
     cursor: pointer;
     color: rgb(210, 72, 63);
 }
-.item-count-container div input {
+.item-count-container-itemDetail div input {
+    width:5rem;
+    text-align: center;
+    border: none;
+    color: rgb(210, 72, 63);
+    font-size:1.6rem;
+}
+
+/* Item List styles */
+
+.item-count-container-itemList {
+    display: flex;
+    flex-flow: column;
+    padding: .5rem;
+    align-items: center;
+}
+.btn-plus-minus-itemList {
+    width: 1.6rem;
+    height: 1.6rem;
+    background: none;
+    font-size: 2.5rem;
+    border: none;
+    cursor: pointer;
+    color: rgb(210, 72, 63);
+}
+.item-count-container-itemList div input {
     width:5rem;
     text-align: center;
     border: none;

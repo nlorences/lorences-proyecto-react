@@ -9,10 +9,6 @@ import Banner from '../Banner/Banner';
 
 const ItemListContainer = () => {
   
-  function addToCart(count){
-    console.log('Agregaste ' + count + ' unidades al carrito!')
-  };
-
   const [products, setProducts] = useState([]);
   const {categoryId} = useParams();
 

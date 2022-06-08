@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Button from './../Button/Button'
 import './ItemCount.css';
 
-const ItemCount = ({stock, initial, onAdd}) => {
+const ItemCount = ({stock, initial, onAdd, classPage, btnClass}) => {
   const [count, setCount] = useState(initial);
 
   function handlePlusButton() {
@@ -14,16 +14,20 @@ const ItemCount = ({stock, initial, onAdd}) => {
       setCount(count - 1);
     }
   }
+
+  const handleInputChange = (e) => {
+    setCount(e.target.value)
+}
     
   return (
-    <div className="item-count-container">
+    <div className={`item-count-container-${classPage}`}>
 
       <div>
-        <button className="btn-plus-minus" onClick={handleMinusButton}>-</button>
-        <input value={count}/>
-        <button className="btn-plus-minus" onClick={handlePlusButton}>+</button>
+        <button className={`btn-plus-minus-${classPage}`} onClick={handleMinusButton}>-</button>
+        <input value={count} onChange={handleInputChange} />
+        <button className={`btn-plus-minus-${classPage}`} onClick={handlePlusButton}>+</button>
       </div>
-        <Button btnText="Agregar al carrito" action={() => (count <= stock) && (count > 0) && onAdd(count)}></Button>
+        <Button btnClass={btnClass} btnText="Agregar al carrito" action={() => (count <= stock) && (count > 0) && onAdd(count)}></Button>
     </div>
 
   )
