@@ -8,7 +8,9 @@ El proyecto es un E-Commerce desarrollado en React de venta de bebidas alcohóli
 
 El proyecto busca mostrar un catálogo de productos, filtrar los mismos en diferentes categorias y mostrar un detalle con las características de cada uno de ellos.
 
-Sus funcionalidades permitirán al usuario elegir la cantidad de cada producto que desean comprar para agregarlos a un carrito de compras y finalizar la transacción.
+La base de datos de los productos se encuentra alojada en Firestore y de alli se obtienen para su renderizado, asi mismo al realizarce una compra se guarda en dicho servicio los datos de la transacción.
+
+Sus funcionalidades permiten al usuario elegir la cantidad de cada producto que desean comprar para agregarlos a un carrito de compras y finalizar la transacción.
 
 ## **Screenshots**
 
@@ -26,6 +28,10 @@ Sus funcionalidades permitirán al usuario elegir la cantidad de cada producto q
 
 ![App Screenshot Detalle productos](src/assets/product_.detail.jpg)
 
+### Carrito
+
+![App Screenshot Detalle productos](src/assets/cart.jpg)
+
 ## **DEMO**
 
 ---
@@ -37,6 +43,7 @@ Sus funcionalidades permitirán al usuario elegir la cantidad de cada producto q
 ---
 
 - react-router-dom
+- Firebase
 
 ## **Instalación**
 
@@ -47,3 +54,10 @@ $ cd ../path/lorences-proyecto-react
 $ npm install
 $ npm run start
 ```
+
+
+https://lorences-proyecto-react.vercel.app/
+
+Nicolas Lorences.
+
+Junio de 2022.
